@@ -14,6 +14,8 @@
 		A8046B8021E7B6CB00DB3074 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8046B7E21E7B6CB00DB3074 /* LaunchScreen.storyboard */; };
 		A8046B8B21E7B6CB00DB3074 /* Memorable_PlacesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8046B8A21E7B6CB00DB3074 /* Memorable_PlacesTests.swift */; };
 		A8046B9621E7B6CB00DB3074 /* Memorable_PlacesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8046B9521E7B6CB00DB3074 /* Memorable_PlacesUITests.swift */; };
+		A809402021E7B8E30045A157 /* PlacesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A809401F21E7B8E30045A157 /* PlacesViewController.swift */; };
+		A809402321E7C5970045A157 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A809402221E7C5960045A157 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		A8046B9121E7B6CB00DB3074 /* Memorable PlacesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Memorable PlacesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8046B9521E7B6CB00DB3074 /* Memorable_PlacesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memorable_PlacesUITests.swift; sourceTree = "<group>"; };
 		A8046B9721E7B6CB00DB3074 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A809401F21E7B8E30045A157 /* PlacesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesViewController.swift; sourceTree = "<group>"; };
+		A809402221E7C5960045A157 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A809402321E7C5970045A157 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +86,7 @@
 				A8046B8921E7B6CB00DB3074 /* Memorable PlacesTests */,
 				A8046B9421E7B6CB00DB3074 /* Memorable PlacesUITests */,
 				A8046B7321E7B6C700DB3074 /* Products */,
+				A809402121E7C5960045A157 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,6 +106,7 @@
 				A8046B7521E7B6C700DB3074 /* AppDelegate.swift */,
 				A8046B7721E7B6C700DB3074 /* ViewController.swift */,
 				A8046B7921E7B6C700DB3074 /* Main.storyboard */,
+				A809401F21E7B8E30045A157 /* PlacesViewController.swift */,
 				A8046B7C21E7B6CB00DB3074 /* Assets.xcassets */,
 				A8046B7E21E7B6CB00DB3074 /* LaunchScreen.storyboard */,
 				A8046B8121E7B6CB00DB3074 /* Info.plist */,
@@ -123,6 +130,14 @@
 				A8046B9721E7B6CB00DB3074 /* Info.plist */,
 			);
 			path = "Memorable PlacesUITests";
+			sourceTree = "<group>";
+		};
+		A809402121E7C5960045A157 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A809402221E7C5960045A157 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,6 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A809402021E7B8E30045A157 /* PlacesViewController.swift in Sources */,
 				A8046B7821E7B6C700DB3074 /* ViewController.swift in Sources */,
 				A8046B7621E7B6C700DB3074 /* AppDelegate.swift in Sources */,
 			);
